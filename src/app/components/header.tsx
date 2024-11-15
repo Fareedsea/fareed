@@ -6,11 +6,13 @@ export default function Header() {
             <h1>Fareed</h1>
             </div>
             <div className="nav">
-               <Link href={"/"}>Home</Link>
-               <Link href={"/about"}>About</Link>
-               <Link href={"/skills"}>Skills</Link>
-               <Link href={"/projects"}>Projects</Link>
-               <Link href={"/contact"}>Contact</Link>
+                <ul>
+                    <li><Link href={"/"} className="active">Home</Link></li>
+                    <li><Link href={"/about"}>About</Link></li>
+                    <li><Link href={"/skills"}>Skills</Link></li>
+                    <li><Link href={"/projects"}>Projects</Link></li>
+                    <li><Link href={"/contact"}>Contact</Link></li>
+               </ul>
             </div>
 
         </div>
